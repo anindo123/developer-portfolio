@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dab.title {
+    display: flex; 
+    font-family: 'Open Sans', serif;
+    font-optical-sizing: auto; 
+    font-weight: 800; 
+    font-style: normal; 
+    font-variation-settings: "wdth" 100; 
+}
+.text-primary {
+    color: orange; 
+}
+nav > ul {
+    display: flex; 
+    align-items: center;
+}
+nav li {
+list-style: none;
+margin-right: 50px; 
+
+}
+nav a {
+    text-decoration: none;
+    color: black; 
+
+}
+.btn-primary {
+    border-radius: 5px;
+    background:  rgb(255, 102, 0); 
+    border: 0; 
+    color: white; 
+    font-size: 20px;
+    font-weight: 700; 
+    padding: 15px 35px; 
+}
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin:0 200px; 
+}
+.header {
+    background-color: #fff8f3;  
+    background-image: url(./images/header_bg.png); 
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+.banner  {
+    padding: 30px 30px 0px 150px; 
+    display: flex; 
+    align-items: center;
+}
+.banner .profile-picture {
+    width: 500px; 
+    background: cover; 
+}
+.btitle {
+    font-size: 45px;
+    color: #474747; 
+    font-family: 'Open Sans'; 
+    font-weight: 200;
+    font-style: normal;
+   
+}
+}
+.bheading {
+    font-size: 85px; 
+    font-weight: 700; 
+    /* margin-top: 5; */
+    margin-bottom: 20;
+    font-family: 'Open Sans'; 
+    font-style: normal;
+}
+.banner-description{
+    margin-bottom: 15px;
+    color: rgb(30, 29, 29);
+}
+  
+.about
+{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0px;
+}
+.section-title {
+    font-family: Open Sans;
+    color:#181818; 
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    font-weight: bold;
+}
+.description {
+    line-height: normal;
+    font-size: 18px;
+    font-weight:normal;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+.main {
+    max-width: 1140px; 
+    margin: 0 auto; 
+
+}
+.corin {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.tahmin {
+    padding: 10px 150px; 
+    color: #757575;
+    margin-bottom: 10px;
+    
+
+
+}
+.information {
+    text-align: center;
+    padding: 30px 150px;
+    
+}
+.skills-container {
+    display: flex;
+   justify-content: space-between;
+    padding: 30px 150px;
+   
+}
+.skill {
+    padding: 30px;
+    gap:24px;
+    border-radius:5px;
+
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+
+}
+.skill-description {
+    background:#fff;
+
+}
+
+.main section {
+    margin-top: 130px;
+    
+}
+.resume {
+    font-family: Open Sans; 
+    font-size: 30px; 
+    font-style: normal;
+    font-weight: 700; 
+    line-height: normal; 
+    color: #474747
+}
+.ronaldo {
+    font-size: 35px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.main-character  {
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 50px;
+    /* width: 100%; */
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.anindo {
+    color:#181818;
+    font-size: 20px;
+    font-style: normal; 
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 2px;
+}
+.bro {
+    font-size: 31px;
+
+}
+.shehtab {
+    font-size: 20px; 
+    font-weight:bold;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.good-info {
+    color: grey
+}
+.side-character {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin:0 50px;
+
+}
+.bonindo {
+    color: #181818;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+ .samosa {
+        font-size: 25px;
+        font-weight: bold; 
+        color: #474747;
+        font-style: Open Sans; 
+        text-shadow: blue;
+        
+    }
+    .shingara {
+        color: grey
+        
+    }
+    .line  {
+        line-height: 10px;
+        color: blue;
+        
+    } 
+    .sole-character {
+        display: flex;
+        justify-content: space-between;
+        /* width: 100%; */
+        margin:0 50px;
+    }
+    .fardeen {
+        font-size: 30px;
+        font-weight: bold; 
+    }
+    .nugget {
+        color: #474747
+    }
+    .chara {
+        color: grey;
+    }
+    .bot  {
+        background-color: orange;
+        color: white;
+        display: block; 
+        margin: auto;
+        padding: 20px 20px 20px 20px;
+        font-style: italic;
+        border: 1px;
+        border-radius: 10px;
+        transition: box-shadow 0.3s with ease;
+        cursor: pointer; 
+    }
+    .undertaker {
+        display: flex;
+        gap:10px;
+        background-color: #fff8f3;
+        padding: 20px;
+        margin: 0 20px 20px;
+        
+        
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        
+     
+        
+        
+    }
+    .vegeta {
+        width: 75%;
+        overflow-wrap: break-word;
+    }
+    .head {
+    font-size: 35px;
+    }
+    .goku {
+        font-size: 35px; 
+        text-align: left;
+    }
+    #peanut {
+        width: 500px; 
+        height: 200px;
+        
+    }
+    .cat {
+        width: 400px;
+        height: 75px;
+    }
+    .dog {
+        width: 400px; 
+        height: 75px;
+    }
+    .orchard {
+    
+        background-color:rgb(255, 102, 0);
+        color: white;
+        display: inline-block; 
+        text-align: left;
+        margin: auto;
+        padding: 20px 20px 20px 20px;
+        font-style: bold; 
+        border: 1px;
+        border-radius: 7px;
+        position: relative; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        cursor: pointer; 
+        transition: box-shadow 0.6s with ease; 
+
+        
+
+    }
+    .orchard:hover {
+        box-shadow: 0px 5px 10px 10px red; 
+
+    }
+    .bot:hover {
+        box-shadow: 0px 5px 10px 10px brown; 
+
+    }
+    
+    
